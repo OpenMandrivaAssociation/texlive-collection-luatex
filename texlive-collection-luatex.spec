@@ -1,4 +1,4 @@
-# revision 25496
+# revision 25623
 # category Collection
 # catalog-ctan undef
 # catalog-date undef
@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-collection-luatex
 Epoch:		1
-Version:	20120307
+Version:	20120327
 Release:	1
 Summary:	LuaTeX packages
 Group:		Publishing
@@ -17,6 +17,7 @@ BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
 Requires:	texlive-collection-basic
+Requires:	texlive-checkcites
 Requires:	texlive-interpreter
 Requires:	texlive-lua-visual-debug
 Requires:	texlive-luabibentry
