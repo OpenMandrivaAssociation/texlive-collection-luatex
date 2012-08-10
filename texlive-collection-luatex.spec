@@ -1,4 +1,4 @@
-# revision 25623
+# revision 27227
 # category Collection
 # catalog-ctan undef
 # catalog-date undef
@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-collection-luatex
 Epoch:		1
-Version:	20120327
+Version:	20120810
 Release:	1
 Summary:	LuaTeX packages
 Group:		Publishing
@@ -18,8 +18,11 @@ BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
 Requires:	texlive-collection-basic
 Requires:	texlive-checkcites
+Requires:	texlive-chickenize
 Requires:	texlive-interpreter
+Requires:	texlive-lua-check-hyphen
 Requires:	texlive-lua-visual-debug
+Requires:	texlive-lua2dox
 Requires:	texlive-luabibentry
 Requires:	texlive-luacode
 Requires:	texlive-luaindex
