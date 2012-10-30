@@ -1,4 +1,4 @@
-# revision 27227
+# revision 27923
 # category Collection
 # catalog-ctan undef
 # catalog-date undef
@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-collection-luatex
 Epoch:		1
-Version:	20120810
+Version:	20121030
 Release:	1
 Summary:	LuaTeX packages
 Group:		Publishing
@@ -32,10 +32,11 @@ Requires:	texlive-lualatex-math
 Requires:	texlive-lualibs
 Requires:	texlive-luamplib
 Requires:	texlive-luaotfload
-Requires:	texlive-luapersian
 Requires:	texlive-luasseq
 Requires:	texlive-luatexbase
 Requires:	texlive-luatextra
+Requires:	texlive-luaxml
+Requires:	texlive-odsfile
 Requires:	texlive-showhyphens
 
 %description
