@@ -1,4 +1,4 @@
-# revision 27923
+# revision 27227
 # category Collection
 # catalog-ctan undef
 # catalog-date undef
@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-collection-luatex
 Epoch:		1
-Version:	20121030
+Version:	20120810
 Release:	1
 Summary:	LuaTeX packages
 Group:		Publishing
@@ -32,11 +32,10 @@ Requires:	texlive-lualatex-math
 Requires:	texlive-lualibs
 Requires:	texlive-luamplib
 Requires:	texlive-luaotfload
+Requires:	texlive-luapersian
 Requires:	texlive-luasseq
 Requires:	texlive-luatexbase
 Requires:	texlive-luatextra
-Requires:	texlive-luaxml
-Requires:	texlive-odsfile
 Requires:	texlive-showhyphens
 
 %description
@@ -54,3 +53,24 @@ http://luatex.org/.
 %build
 
 %install
+
+
+%changelog
+* Fri Aug 10 2012 Paulo Andrade <pcpa@mandriva.com.br> 1:20120810-1
++ Revision: 813958
+- Update to latest release.
+
+* Tue Mar 27 2012 Paulo Andrade <pcpa@mandriva.com.br> 1:20120327-1
++ Revision: 787862
+- Update to latest release.
+
+* Wed Mar 07 2012 Paulo Andrade <pcpa@mandriva.com.br> 1:20120307-1
++ Revision: 783101
+- Update to latest release.
+
+* Fri Feb 24 2012 Paulo Andrade <pcpa@mandriva.com.br> 1:20120224-1
++ Revision: 780501
+- Update to latest release.
+- Import texlive-collection-luatex
+- Import texlive-collection-luatex
+
