@@ -7,7 +7,7 @@
 Name:		texlive-collection-luatex
 Epoch:		1
 Version:	20120810
-Release:	1
+Release:	2
 Summary:	LuaTeX packages
 Group:		Publishing
 URL:		http://tug.org/texlive
