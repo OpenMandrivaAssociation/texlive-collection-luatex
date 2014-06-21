@@ -1,4 +1,4 @@
-# revision 30790
+# revision 33467
 # category Collection
 # catalog-ctan undef
 # catalog-date undef
@@ -6,8 +6,8 @@
 # catalog-version undef
 Name:		texlive-collection-luatex
 Epoch:		1
-Version:	20131013
-Release:	6
+Version:	20140621
+Release:	1
 Summary:	LuaTeX packages
 Group:		Publishing
 URL:		http://tug.org/texlive
@@ -41,6 +41,7 @@ Requires:	texlive-luatexko
 Requires:	texlive-luatextra
 Requires:	texlive-luaxml
 Requires:	texlive-odsfile
+Requires:	texlive-placeat
 Requires:	texlive-selnolig
 Requires:	texlive-showhyphens
 Requires:	texlive-spelling
