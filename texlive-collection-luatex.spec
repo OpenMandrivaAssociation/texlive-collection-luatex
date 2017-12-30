@@ -6,8 +6,8 @@
 # catalog-version undef
 Name:		texlive-collection-luatex
 Epoch:		1
-Version:	20140621
-Release:	4
+Version:	20171022
+Release:	1
 Summary:	LuaTeX packages
 Group:		Publishing
 URL:		http://tug.org/texlive
