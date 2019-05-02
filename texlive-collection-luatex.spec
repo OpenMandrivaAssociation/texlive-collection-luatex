@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-collection-luatex
 Epoch:		1
-Version:	20181216
+Version:	20190430
 Release:	1
 Summary:	LuaTeX packages
 Group:		Publishing
