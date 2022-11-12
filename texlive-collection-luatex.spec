@@ -1,18 +1,12 @@
-# revision 33467
-# category Collection
-# catalog-ctan undef
-# catalog-date undef
-# catalog-license undef
-# catalog-version undef
 Name:		texlive-collection-luatex
 Epoch:		1
-Version:	20190430
+Version:	64870
 Release:	1
 Summary:	LuaTeX packages
 Group:		Publishing
 URL:		http://tug.org/texlive
 License:	http://www.tug.org/texlive/LICENSE.TL
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/collection-luatex.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/collection-luatex.r64870.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -56,7 +50,7 @@ http://luatex.org/.
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0
+%autosetup -p1 -c
 
 %build
 
