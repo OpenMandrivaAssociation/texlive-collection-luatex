@@ -1,7 +1,7 @@
 Name:		texlive-collection-luatex
 Epoch:		1
-Version:	65333
-Release:	2
+Version:	67348
+Release:	1
 Summary:	LuaTeX packages
 Group:		Publishing
 URL:		http://tug.org/texlive
