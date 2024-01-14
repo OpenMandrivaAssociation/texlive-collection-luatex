@@ -1,6 +1,6 @@
 Name:		texlive-collection-luatex
 Epoch:		1
-Version:	69052
+Version:	69404
 Release:	1
 Summary:	LuaTeX packages
 Group:		Publishing
