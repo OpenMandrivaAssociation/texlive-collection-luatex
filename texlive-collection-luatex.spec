@@ -1,57 +1,150 @@
-Name:		texlive-collection-luatex
-Epoch:		1
-Version:	74062
+%global tl_name collection-luatex
+%global tl_revision 79620
+
+Name:		texlive-%{tl_name}
+Version:	%{tl_revision}
 Release:	1
 Summary:	LuaTeX packages
 Group:		Publishing
-URL:		https://tug.org/texlive
-License:	http://www.tug.org/texlive/LICENSE.TL
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/collection-luatex.r%{version}.tar.xz
+URL:		https://www.ctan.org/pkg/collection-luatex
+License:	LPPL
+Source0:	https://mirrors.ctan.org/systems/texlive/tlnet/archive/collection-luatex.r%{tl_revision}.tar.xz
 BuildArch:	noarch
+BuildSystem:	texlive
 BuildRequires:	texlive-tlpkg
-Requires(pre):	texlive-tlpkg
-Requires:	texlive-collection-basic
-Requires:	texlive-checkcites
-Requires:	texlive-chickenize
-Requires:	texlive-enigma
-Requires:	texlive-interpreter
-Requires:	texlive-lua-check-hyphen
-Requires:	texlive-lua-visual-debug
-Requires:	texlive-lua2dox
-Requires:	texlive-luabibentry
-Requires:	texlive-luabidi
-Requires:	texlive-luacode
-Requires:	texlive-luaindex
-Requires:	texlive-luainputenc
-Requires:	texlive-luaintro
-Requires:	texlive-lualatex-doc
-Requires:	texlive-lualatex-math
-Requires:	texlive-lualibs
-Requires:	texlive-luamplib
-Requires:	texlive-luaotfload
-Requires:	texlive-luasseq
-Requires:	texlive-luatexbase
-Requires:	texlive-luatexko
-Requires:	texlive-luatextra
-Requires:	texlive-luaxml
-Requires:	texlive-odsfile
-Requires:	texlive-placeat
-Requires:	texlive-selnolig
-Requires:	texlive-showhyphens
-Requires:	texlive-spelling
+%texlive_base_requires
+Requires:	texlive(addliga)
+Requires:	texlive(addtoluatexpath)
+Requires:	texlive(auto-pst-pdf-lua)
+Requires:	texlive(barracuda)
+Requires:	texlive(bezierplot)
+Requires:	texlive(blopentype)
+Requires:	texlive(char2path)
+Requires:	texlive(checkcites)
+Requires:	texlive(chickenize)
+Requires:	texlive(chinese-jfm)
+Requires:	texlive(cloze)
+Requires:	texlive(collection-basic)
+Requires:	texlive(combofont)
+Requires:	texlive(countwords)
+Requires:	texlive(cstypo)
+Requires:	texlive(ctablestack)
+Requires:	texlive(ekdosis)
+Requires:	texlive(emoji)
+Requires:	texlive(emojicite)
+Requires:	texlive(enigma)
+Requires:	texlive(fancymag)
+Requires:	texlive(farbe)
+Requires:	texlive(gitinfo-lua)
+Requires:	texlive(ideavault)
+Requires:	texlive(innerscript)
+Requires:	texlive(interpreter)
+Requires:	texlive(kanaparser)
+Requires:	texlive(kkluaverb)
+Requires:	texlive(kkran)
+Requires:	texlive(kksymbols)
+Requires:	texlive(ligtype)
+Requires:	texlive(linebreaker)
+Requires:	texlive(longmath)
+Requires:	texlive(lparse)
+Requires:	texlive(lt3luabridge)
+Requires:	texlive(lua-list-hyphen)
+Requires:	texlive(lua-placeholders)
+Requires:	texlive(lua-tinyyaml)
+Requires:	texlive(lua-typo)
+Requires:	texlive(lua-uca)
+Requires:	texlive(lua-ul)
+Requires:	texlive(lua-visual-debug)
+Requires:	texlive(lua-widow-control)
+Requires:	texlive(luaaddplot)
+Requires:	texlive(luacas)
+Requires:	texlive(luacensor)
+Requires:	texlive(luacode)
+Requires:	texlive(luacolor)
+Requires:	texlive(luacomplex)
+Requires:	texlive(luagcd)
+Requires:	texlive(luahttp)
+Requires:	texlive(luahyperbolic)
+Requires:	texlive(luahyphenrules)
+Requires:	texlive(luaimageembed)
+Requires:	texlive(luaindex)
+Requires:	texlive(luainputenc)
+Requires:	texlive(luakeys)
+Requires:	texlive(luakeyval)
+Requires:	texlive(lualatex-math)
+Requires:	texlive(lualatex-truncate)
+Requires:	texlive(lualibs)
+Requires:	texlive(lualinalg)
+Requires:	texlive(lualineno)
+Requires:	texlive(luamathalign)
+Requires:	texlive(luamaths)
+Requires:	texlive(luamml)
+Requires:	texlive(luamodulartables)
+Requires:	texlive(luamplib)
+Requires:	texlive(luanumbers)
+Requires:	texlive(luaoptions)
+Requires:	texlive(luaotfload)
+Requires:	texlive(luapackageloader)
+Requires:	texlive(luaplot)
+Requires:	texlive(luaprogtable)
+Requires:	texlive(luaquotes)
+Requires:	texlive(luarandom)
+Requires:	texlive(luaset)
+Requires:	texlive(luatbls)
+Requires:	texlive(luatex-type-definitions)
+Requires:	texlive(luatex85)
+Requires:	texlive(luatexbase)
+Requires:	texlive(luatexko)
+Requires:	texlive(luatextra)
+Requires:	texlive(luatikz)
+Requires:	texlive(luatruthtable)
+Requires:	texlive(luavlna)
+Requires:	texlive(luaxml)
+Requires:	texlive(lutabulartools)
+Requires:	texlive(marginalia)
+Requires:	texlive(minim)
+Requires:	texlive(minim-math)
+Requires:	texlive(minim-mp)
+Requires:	texlive(minim-pdf)
+Requires:	texlive(minim-xmp)
+Requires:	texlive(monoref)
+Requires:	texlive(newpax)
+Requires:	texlive(nodetree)
+Requires:	texlive(odsfile)
+Requires:	texlive(optex)
+Requires:	texlive(parstat)
+Requires:	texlive(pdfarticle)
+Requires:	texlive(pdfextra)
+Requires:	texlive(penlight)
+Requires:	texlive(penlightplus)
+Requires:	texlive(piton)
+Requires:	texlive(placeat)
+Requires:	texlive(plantuml)
+Requires:	texlive(pyluatex)
+Requires:	texlive(scholatex)
+Requires:	texlive(scikgtex)
+Requires:	texlive(seatingchart)
+Requires:	texlive(selnolig)
+Requires:	texlive(semesterplannerlua)
+Requires:	texlive(showhyphenation)
+Requires:	texlive(showkerning)
+Requires:	texlive(spacekern)
+Requires:	texlive(spelling)
+Requires:	texlive(stricttex)
+Requires:	texlive(sympycalc)
+Requires:	texlive(tango)
+Requires:	texlive(texfindpkg)
+Requires:	texlive(truthtable)
+Requires:	texlive(tsvtemplate)
+Requires:	texlive(typewriter)
+Requires:	texlive(unibidi-lua)
+Requires:	texlive(uninormalize)
+Requires:	texlive(yamlvars)
+Provides:	texlive(%{tl_name}) = %{tl_revision}
 
 %description
-Packages for LuaTeX, a Unicode-aware extension of pdfTeX, using
-Lua as an embedded scripting and extension language.
-http://luatex.org/.
+Packages for LuaTeX, a TeX engine using Lua as an embedded scripting and
+extension language, with native support for Unicode, OpenType/TrueType
+fonts, and both PDF and DVI output. The LuaTeX engine itself (and plain
+formats) are in collection-basic.
 
-#-----------------------------------------------------------------------
-%files
-
-#-----------------------------------------------------------------------
-%prep
-%autosetup -p1 -c
-
-%build
-
-%install
