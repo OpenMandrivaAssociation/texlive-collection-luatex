@@ -1,5 +1,5 @@
 %global tl_name collection-luatex
-%global tl_revision 79620
+%global tl_revision 79678
 
 Name:		texlive-%{tl_name}
 Version:	%{tl_revision}
@@ -30,6 +30,7 @@ Requires:	texlive(ctablestack)
 Requires:	texlive(ekdosis)
 Requires:	texlive(emoji)
 Requires:	texlive(emojicite)
+Requires:	texlive(emojinames)
 Requires:	texlive(enigma)
 Requires:	texlive(fancymag)
 Requires:	texlive(farbe)
