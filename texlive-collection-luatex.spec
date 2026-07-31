@@ -1,5 +1,5 @@
 %global tl_name collection-luatex
-%global tl_revision 79678
+%global tl_revision 79805
 
 Name:		texlive-%{tl_name}
 Version:	%{tl_revision}
@@ -47,6 +47,7 @@ Requires:	texlive(linebreaker)
 Requires:	texlive(longmath)
 Requires:	texlive(lparse)
 Requires:	texlive(lt3luabridge)
+Requires:	texlive(lua-calendrica)
 Requires:	texlive(lua-list-hyphen)
 Requires:	texlive(lua-placeholders)
 Requires:	texlive(lua-tinyyaml)
@@ -56,6 +57,7 @@ Requires:	texlive(lua-ul)
 Requires:	texlive(lua-visual-debug)
 Requires:	texlive(lua-widow-control)
 Requires:	texlive(luaaddplot)
+Requires:	texlive(luabreakurl)
 Requires:	texlive(luacas)
 Requires:	texlive(luacensor)
 Requires:	texlive(luacode)
@@ -75,6 +77,7 @@ Requires:	texlive(lualatex-truncate)
 Requires:	texlive(lualibs)
 Requires:	texlive(lualinalg)
 Requires:	texlive(lualineno)
+Requires:	texlive(luamathaccents)
 Requires:	texlive(luamathalign)
 Requires:	texlive(luamaths)
 Requires:	texlive(luamml)
