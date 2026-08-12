@@ -1,5 +1,5 @@
 %global tl_name collection-luatex
-%global tl_revision 79805
+%global tl_revision 79926
 
 Name:		texlive-%{tl_name}
 Version:	%{tl_revision}
@@ -27,6 +27,7 @@ Requires:	texlive(combofont)
 Requires:	texlive(countwords)
 Requires:	texlive(cstypo)
 Requires:	texlive(ctablestack)
+Requires:	texlive(dichromacy)
 Requires:	texlive(ekdosis)
 Requires:	texlive(emoji)
 Requires:	texlive(emojicite)
@@ -142,7 +143,7 @@ Requires:	texlive(typewriter)
 Requires:	texlive(unibidi-lua)
 Requires:	texlive(uninormalize)
 Requires:	texlive(yamlvars)
-Provides:	texlive(%{tl_name}) = %{tl_revision}
+Provides:	texlive(%{tl_name}) = %{version}
 
 %description
 Packages for LuaTeX, a TeX engine using Lua as an embedded scripting and
